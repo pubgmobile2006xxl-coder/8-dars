@@ -6,13 +6,13 @@
 // }
 // console.log(a);
 
-// 2-misol
+// 2;-misol
 
 // let a = +prompt("a son kiriting");
 // if (a > 0) {
 //     a = a + 1;
 // } else if (a < 0) {
-//     a = a - 2;
+//     a = a - 2;;
 // } else if (a === 0) {
 //     a = 10
 // }{
@@ -162,9 +162,26 @@
 
 // 13-misol
 
+// let a = +prompt("a son kriting");
+// let b = +prompt("b son kriting");
+// let c = +prompt("c son kriting");
+// if (a < b && b < c ) {
+//     a *= 2;
+//     b *= 2;
+//     c *= 2;
+// } else {
+//     a = -a;
+//     b = -b;
+//     c = -c;
+// }
+// console.log(a, b, c);
+
+// 14-misol
+
 let a = +prompt("a son kriting");
 let b = +prompt("b son kriting");
 let c = +prompt("c son kriting");
+
 
 
 
