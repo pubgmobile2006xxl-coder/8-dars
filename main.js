@@ -134,4 +134,8 @@
 
 // uy ishi insta
 
-
+function crudList(){
+    list.innerHTML = data.map((item,i) => `
+        <li>${item} <button></button> <button>Ochirish</button></li>
+    `).join("")
+}
