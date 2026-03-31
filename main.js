@@ -134,8 +134,21 @@
 
 // uy ishi insta
 
+let data = [];
+
+let list = document.getElementById("list");
+let inp = document.getElementById("inp");
+
 function crudList(){
     list.innerHTML = data.map((item,i) => `
-        <li>${item} <button></button> <button>Ochirish</button></li>
+        <li>${item} <button>Ochirish ❌</button></li>
     `).join("")
+}
+
+function add(){
+    if(inp.value){
+        data.push(inp.value)
+        inp.value = "";
+        crudList()
+    }
 }
