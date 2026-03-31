@@ -178,10 +178,24 @@
 
 // 14-misol
 
-let a = +prompt("a son kriting");
-let b = +prompt("b son kriting");
-let c = +prompt("c son kriting");
+// let a = +prompt("a son kriting");
+// let b = +prompt("b son kriting");
+// let c = +prompt("c son kriting");
 
+// if ((a < b && b < c)|| (a > b && b > c)){
+//     a *= 2;
+//     b *= 2;
+//     c *= 2;
+// } else {
+//     a = -a;
+//     b = -b;
+//     c = -c;
+// }
+// console.log(a, b, c);
+
+// 15-misol
+
+let a = +prompt("a son kriting");
 
 
 
