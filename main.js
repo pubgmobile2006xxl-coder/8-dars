@@ -134,7 +134,40 @@
 
 // 11-misol
 
-let 
+// let a = +prompt("a soni kriting");
+// let b = +prompt("b soni kriting");
+// let c = +prompt("c soni kriting");
+// let orta;
+// if ((a > b && a < c)|| (a > c && a < b)){
+//     orta = a;
+// } else if ((b > a && b < c)|| (b > c && b < a)) {
+//     orta = b;
+// } else {
+//     orta = c;
+// }
+// console.log(orta);
+
+// 12-misol
+
+// let a = +prompt("a son kriting");
+// let b = +prompt("b son kriting");
+// let c = +prompt("c son kriting");
+// if (a <= b && a <= c) {
+//     console.log(b, c);
+// } else if (b <= a && b <= c) {
+//     console.log(a, c);
+// } else {
+//     console.log(a, b);       
+// }
+
+// 13-misol
+
+let a = +prompt("a son kriting");
+let b = +prompt("b son kriting");
+let c = +prompt("c son kriting");
+
+
+
 
 
 
@@ -151,15 +184,31 @@ let
 // let inp = document.getElementById("inp");
 
 // function crudList(){
+//     if (event)event.preventDefault();
 //     list.innerHTML = data.map((item,i) => `
-//         <li>${item} <button>Ochirish ❌</button></li>
+//         <li>
+//         ${item}
+//         <button onclick="edit(${i})">✍🏻</button>
+//         <button onclick="del(${i})">❌</button>
+//         </li>
 //     `).join("")
 // }
 
 // function add(){
-//     if(inp.value){
-//         data.push(inp.value)
+//     if(inp.value.trim()){
+//         data.push(inp.value.trim());
 //         inp.value = "";
 //         crudList()
 //     }
+// }
+
+// function edit(i){
+//     let yangi = prompt("Tahrirlash:",data[i]);
+//     if (yangi && yangi.trim())data[i] = yangi.trim();       
+//     crudList();
+// }
+
+// function del(i) {
+//     if (confirm("o'chirilsinmi?🤔"))data.splice(i,1);
+//     crudList();
 // }
