@@ -132,23 +132,34 @@
 // let min = Math. min(a , b, c,);
 // console.log("Eng kichik son", min);
 
+// 11-misol
+
+let 
+
+
+
+
+
+
+
+
 // uy ishi insta
 
-let data = [];
+// let data = [];
 
-let list = document.getElementById("list");
-let inp = document.getElementById("inp");
+// let list = document.getElementById("list");
+// let inp = document.getElementById("inp");
 
-function crudList(){
-    list.innerHTML = data.map((item,i) => `
-        <li>${item} <button>Ochirish ❌</button></li>
-    `).join("")
-}
+// function crudList(){
+//     list.innerHTML = data.map((item,i) => `
+//         <li>${item} <button>Ochirish ❌</button></li>
+//     `).join("")
+// }
 
-function add(){
-    if(inp.value){
-        data.push(inp.value)
-        inp.value = "";
-        crudList()
-    }
-}
+// function add(){
+//     if(inp.value){
+//         data.push(inp.value)
+//         inp.value = "";
+//         crudList()
+//     }
+// }
