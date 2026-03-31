@@ -196,6 +196,8 @@
 // 15-misol
 
 let a = +prompt("a son kriting");
+let a = +prompt("a son kriting");
+let a = +prompt("a son kriting");
 
 
 
